@@ -9,7 +9,7 @@ app.config["DEBUG"] = True
 connection = pyscopg2.connect(
     host="127.0.0.1",
     port="5432",
-    database="python_books"
+    database="pet_hotel"
 )
 
 @app.route('/api/pets', methods=['GET'])
